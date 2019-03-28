@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <!--Styling-->
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .bg {
+    background-image: url("assets/ashenvale.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    } 
+    .aboutContainer {
+        border-radius: 25px;
+        background-color:cornflowerblue;
+        opacity: 0.8;
+        height: 75%;
+        width: 75%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aboutContainer p {
+      margin: 10px;
+    }
+    .aboutMe {
+      text-decoration: underline;
+    }
+    .footer {
+      width: 100%;
+      height: 5%;
+      background-color:#3f3f3f;
+      color: white;
+      text-align: right;
+      justify-self:end;
+      position: absolute;
+      bottom: 0;
+    }
+  </style>
+  </head>
+  <body>
+
+    <!--Navigation Bar-->
+    <nav class = "navbar navbar-expand-sm navbar-dark bg-dark">
+      
+      <a class = "navbar-brand"><img src = "assets/elevenfiftylogo.jpg"></a>
+      <span class = "navbar-text">Erich Morris</span>
+      <div class = "container justify-content-end">
+      <ul class = "nav navbar-nav">
+        <li class = "nav-item"> 
+          <a class = "nav-link" href = "index.html">Home</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link" href = "projects.html">Projects</a>
+        </li>
+        <li class = "active">
+            <a class = "nav-link" href = "about.html">About</a>
+          </li>
+          <li class = "nav-item">
+              <a class = "nav-link" href = "contact.html">Contact</a>
+            </li>
+      </ul>
+      </div>
+    </nav>
+
+    <!--Background-->
+    <div class = "bg">
+        <div class = "aboutContainer">
+            <h2 class = "aboutMe">About Me</h2>
+            <p>Hello! My name is Erich Morris and I am a dot net developer. I am currently enrolled at 
+              Eleven Fifty Academy. I graduated from Martinsville Highschool in 2012. During my senior year,
+              I attended Hoosier Hills Career Center's IT program. There, I began persuing my interest in 
+              computer programing, focusing on <b>Python</b>. I later attended IUPUI's CIT program where I began devloping
+              skills with <b>HTML</b> / <b>CSS</b>, <b>SQL</b>, and <b>Visual Basic.net</b>.
+            </p>
+        </div>
+        <div class = "footer">
+            <p>Erich Morris 2019</p>
+            </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
